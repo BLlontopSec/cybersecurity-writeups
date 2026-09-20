@@ -5,7 +5,7 @@ Welcome to my personal Cybersecurity repository!
 Here I document my notes, research, and solutions to machine/challenge issues on cybersecurity platforms.
 ## 📂 Repository Structure
 
-* **`Cybersecurity/Images/
+* **`Cybersecurity/Images/`**
 * **`Cybersecurity/Writeups/`**
   * `CTF/` 
   * `HTB/` 
