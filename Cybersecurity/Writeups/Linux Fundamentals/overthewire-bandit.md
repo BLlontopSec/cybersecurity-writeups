@@ -15,7 +15,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 **NOTE:** _In all Bandit levels, the objective of the level will be to find a way to authenticate for the next level, for example by finding the password_
 
----
 ## Level 0 
 
 1. First, we use SSH to connect to **bandit.labs.overthewire.org** on port 2220 and putting the password "bandit0". 
@@ -26,7 +25,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 **NOTE:** _We are going to do the same for the next levels , when we have the password to authenticate for the next level we are going to go there using SSH_. For example to go to the level 12 we put in the terminal : `ssh bandit12@bandit.labs.overthewire.org -p 2220`
 
----
 ## Level 0 -> 1
 
 1. First we're going to create a file to notes and passwords because passwords levels aren't saved automatically (we need to save our passwords here because If we don't save them ourselves, we'll need to start over from bandit0).
@@ -37,7 +35,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![569](../../Images/Pasted%20image%2020260920214355.png)
 
----
 ## Level 1 -> 2
 
 1. We are going to find the password of the next level in a txt file called "-" , But when you try to use the `cat` as a previous level, we realized that it doesn't work.
@@ -48,7 +45,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![318](../../Images/Pasted%20image%2020260920220629.png)
 
----
 ## Level 2 -> 3
 
 1. We can't access to the file on the next level because Linux interprets spaces differently; Linux thinks I'm looking for spaces, in, this and filename separately
@@ -59,7 +55,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![487](../../Images/Pasted%20image%2020260920223052.png)
 
----
 ## Level 3 -> 4
 
 1. For the this level we can see that **inhere/** is a directory and we can enter using the command `cd inhere/` and we can see that using `ls` nothing appears and using the command `ls -a` (to also see the hidden content) we can see 2 directories and one file and we can recognized that is a hidden content because all the hidden content in Linux start with a dot 
@@ -70,7 +65,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![461](../../Images/Pasted%20image%2020260920224831.png)
 
----
 ## Level 4 -> 5
 
 1. In this level we can access to the password in one file that is "only-human-readable" in the `inhere/` directory.
@@ -81,7 +75,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![](../../Images/Pasted%20image%2020260920231225.png)
 
----
 ## Level 5 -> 6
 
 1. The level said that the password is in a file somewhere under the `inhere/` directory and has the following properties:
@@ -103,7 +96,6 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![](../../Images/Pasted%20image%2020260920234639.png)
 
----
 ## Level 6 -> 7
 
 1. The level said that the password is in a file somewhere on the server and has the following properties:
@@ -127,12 +119,9 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ![](../../Images/Pasted%20image%2020260921002136.png)
 
----
 ## Level 7 -> 8
 
 1.  The level said that the password is stored in the file **data.txt** next to the word **millionth** This is very simply with the `grep` command that is used to search for words, phrases or text patterns within files or in the output of other commands. So with `grep "millionth" data.txt"` we have the password for the next level
 
 ![](../../Images/Pasted%20image%2020260921003233.png)
-
----
 
