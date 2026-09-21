@@ -1,7 +1,7 @@
 ## 1. Summary (Executive Summary)
 
 - **Name of the challenge/machine:** (Ex. _Machine: Legacy en Hack The Box_).
-- **Difficult:** (Easy, Medium, Hard).
+- **Difficult:** (Beginner, Intermediate, Advanced, Expert ).
 - **Short Description:** What was the challenge about and what did you achieve? (Ex. _Administrator access was gained by exploiting the MS08-067 vulnerability._).
 - **Target IP:** (if applicable).
 
