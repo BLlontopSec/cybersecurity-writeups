@@ -34,4 +34,3 @@ Once inside as a limited user, explain how you became **Root** or **Administrato
 A professional write-up not only tells how you broke the system, but also **how to fix it**.
 
 - Briefly explain what security patches should have been applied or what settings should have been changed to prevent the attack.
-

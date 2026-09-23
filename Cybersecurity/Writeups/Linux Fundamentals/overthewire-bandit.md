@@ -27,17 +27,17 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ## Level 0 -> 1
 
-1. First we're going to create a file to notes and passwords because passwords levels aren't saved automatically (we need to save our passwords here because If we don't save them ourselves, we'll need to start over from bandit0).
+1. Create a file to notes and passwords because passwords levels aren't saved automatically (we need to save our passwords here because If we don't save them ourselves, we'll need to start over from bandit0).
 
 ![](../../Images/Pasted%20image%2020260920210427.png)
 
-2. We are going to find the password of the next level in a txt file called "readme" , we can list the content using the command `ls` and to see the content of the .txt file we can use the command `cat` 
+2. The password of the next level is in a txt file called "readme" , list the content using the command `ls` and to see the content of the .txt file use the command `cat` 
 
 ![569](../../Images/Pasted%20image%2020260920214355.png)
 
 ## Level 1 -> 2
 
-1. We are going to find the password of the next level in a txt file called "-" , But when you try to use the `cat` as a previous level, we realized that it doesn't work.
+1. The password of the next level is in a txt file called "-" , But when you try to use the `cat` as a previous level, we realized that it doesn't work.
 
 ![](../../Images/Pasted%20image%2020260920220011.png)
 
@@ -57,7 +57,7 @@ Through a series of practical, challenge-based levels, the game teaches the basi
 
 ## Level 3 -> 4
 
-1. For the this level we can see that **inhere/** is a directory and we can enter using the command `cd inhere/` and we can see that using `ls` nothing appears and using the command `ls -a` (to also see the hidden content) we can see 2 directories and one file and we can recognized that is a hidden content because all the hidden content in Linux start with a dot 
+1. For the this level we can see that `inhere/` is a directory and we can enter using the command `cd inhere/` and we can see that using `ls` nothing appears and using the command `ls -a` (to also see the hidden content) we can see 2 directories and one file and we can recognized that is a hidden content because all the hidden content in Linux start with a dot 
 
 ![302](../../Images/Pasted%20image%2020260920224322.png)
 
