@@ -9,7 +9,8 @@ Here I document my notes, research, and solutions to machine/challenge issues on
 * **`Cybersecurity/Writeups/`**
   * `CTF/` 
   * `HTB/` 
-  * `TryHackMe/` 
+  * `TryHackMe/`
+  * `Linux Fundamentals/` 
 
 ---
 _Documentation created and maintained using Obsidian and Git._
